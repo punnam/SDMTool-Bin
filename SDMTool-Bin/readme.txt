@@ -12,4 +12,6 @@ http://localhost:8080/SDMTool/index.html#/
 Step 5: run following urls
 http://localhost:9080/SDMToolAgent/index.html#/
 
+http://localhost:8082/login.jsp?jsessionid=b0c1efdb8cde6d8fc0143f725a985240
+
 java -cp h2-1.4.190.jar org.h2.tools.Script -url "jdbc:h2:~/dmtool" -user "sa" -script "dmtool.sql"

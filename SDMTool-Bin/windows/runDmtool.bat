@@ -1,0 +1,1 @@
+javaw -cp SDMToolServerJetty-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.sdmtool.jetty.server.SDMToolServer -c SDMTool -p 8080 -w SDMToolServer-0.0.1-SNAPSHOT.war
